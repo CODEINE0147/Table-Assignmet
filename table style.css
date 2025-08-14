@@ -1,0 +1,29 @@
+/* Style the entire table */
+table {
+    width: 80%; /* Make the table take up 80% of the page width */
+    margin: 50px auto; /* Center the table horizontally and add some space above */
+    border-collapse: collapse; /* Collapse the cell borders into a single line */
+    font-size: 1.2em; /* Increase the font size for the whole table */
+    border: 3px solid #333; /* Make the outer border thicker and a dark gray color */
+}
+
+/* Style the header cells */
+th {
+    background-color: #f2f2f2; /* Light gray background for headers */
+    font-weight: bold; /* This is the default, but it's good practice to be explicit */
+    padding: 15px; /* Add more padding to make cells bigger */
+    border: 2px solid #333; /* Thicker, dark border for header cells */
+    text-align: center; /* Center the header text */
+}
+
+/* Style the data cells */
+td {
+    padding: 15px; /* Add more padding to make cells bigger */
+    border: 2px solid #333; /* Thicker, dark border for data cells */
+    text-align: left; /* Align the data text to the left */
+}
+
+/* Make all text within the table bold */
+table, th, td {
+    font-weight: bold;
+}
